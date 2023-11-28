@@ -10,12 +10,70 @@
     top: 0;
     left: 0;
     width: 100%;
+    display: flex;
 }    
+
+#list{
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#navbarlogo {
+    height: 56px;
+    padding-left: 20px;
+}
+
+#searchbox { 
+    border: 1px solid black;
+    width: 550px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 300px;
+} 
+
+#search {
+    padding-top: 10px;
+}
+
+#pfp {
+    padding-right: 30px;
+}
+
+#mic {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#bell {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    margin-left: 350px;
+}
+
+#pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 75px;
+    padding-top: 7px;
+    margin-left: 20px;
+}
 
 #sidebar {
     background-color: #FAF9F6;
-    width: 250px;
+    width: 60px;
     position: fixed;
     top: 56px;
     height: 100%;
+    margin-left: 20px;
+}
+
+.side {
+    height: 35px;
+    margin-top: 13px;
 }
